@@ -10,8 +10,10 @@
     [user]$ mkdir VM1
     [user]$ cd VM1
     [user]$ vagrant box add centos/7 => Add image to the system
+    [user]$ vagrant box list => List all images added in the system
     [user]$ vagrant init centos/7
     [user]$ vagrant up
+    [user]$ vagrant status
     [user]$ Once UP - you will find VM in Virutal Box application
     [user]$ vagrant up <VM name> to bring up the VMs
     [user]$ vagrant ssh <VM name> to SSH to VMs
