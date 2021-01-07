@@ -58,3 +58,6 @@
     sudo apt update
     sudo apt-get install xfce4
     sudo startxfce4&
+    
+## Run Shell command during first startup
+    config.vm.provision "shell", inline: "sudo apt-get update"
