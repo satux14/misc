@@ -53,3 +53,8 @@
     config.vm.provider "virtualbox" do |vb|
     	vb.customize ['modifyvm', :id, '--cableconnected1', 'on']
     end
+
+## Enable GUI desktop - Ubuntu
+    sudo apt update
+    sudo apt-get install xfce4
+    sudo startxfce4&
