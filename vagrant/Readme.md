@@ -61,3 +61,7 @@
     
 ## Run Shell command during first startup
     config.vm.provision "shell", inline: "sudo apt-get update"
+
+## Get Simple Vagrantfile
+    https://gist.github.com/de24a208cc062c6cf7a6c3ba55a8cddb.git
+    git clone https://gist.github.com/de24a208cc062c6cf7a6c3ba55a8cddb.git
