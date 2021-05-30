@@ -28,7 +28,7 @@
     Vagrant.configure(2) do |configure| 
     	config.vm.box = "centos/7"
     	config.hostname = "linuxsrv1"
-    	config.vm.network "private network", ip: "191.168.1.10"
+    	config.vm.network "private_network", ip: "191.168.1.10"
     	#config.provision "shell", path: "setup.sh"
     	#config.vm.provider "virtualbox" do |vb|
     		#vb.gui = true
